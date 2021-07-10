@@ -9,6 +9,9 @@
 
 int main(int argc, char const *argv[])
 {
+
+  printf("Server running on port: %d\n", PORT);
+
   // Create server socket
   int server_socket = socket(AF_INET, SOCK_STREAM, 0);
 
